@@ -1,15 +1,16 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Playfair Display", serif;
+  font-weight: 400;
 }
 
 #Ubuntu {
   font-family: "Ubuntu", sans-serif;
-  color: #B4AD9E;
+  color: #b4ad9e;
   font-size: 14px;
+  font-weight: 300;
 }
 
 section {
@@ -18,19 +19,23 @@ section {
 
 li > a {
   text-decoration: none;
-  color: #7D7D7D;
+  color: #7d7d7d;
+  font-weight: 400;
 }
 
 a:hover {
-  color: #03A9F4;
+  color: #03a9f4;
 }
 
 button {
   background-color: #ffffff;
   color: #626262;
-  border: 1px solid #626262;
+  border: 2px solid #626262;
   padding: 10px 20px;
   font-size: 14px;
+  width: 165px;
+  height: 60px;
+  font-weight: 400;
 }
 
 img {
