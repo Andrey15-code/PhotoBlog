@@ -1,44 +1,91 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
+.photoblog_nav {
+  width: 555px;
+  height: 100%;
+  display: flex;
+  gap: 100px;
+  margin: 71px auto 92px auto;
 }
 
-#Ubuntu {
-  font-family: "Ubuntu", sans-serif;
-  color: #b4ad9e;
+.container {
+  max-width: 906px;
+  display: flex;
+  margin: 0 auto;
+  gap: 65px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+html {
   font-size: 14px;
-  font-weight: 300;
 }
 
-section {
-  color: #626262;
-}
+/*portholio navigation*/
 
-li > a {
-  text-decoration: none;
-  color: #7d7d7d;
+.nav-item {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
   font-weight: 400;
+  color: #7d7d7d;
 }
 
-a:hover {
+.nav-item:hover {
   color: #03a9f4;
 }
 
-button {
-  background-color: #ffffff;
-  color: #626262;
-  border: 2px solid #626262;
-  padding: 10px 20px;
-  font-size: 14px;
-  width: 165px;
-  height: 60px;
-  font-weight: 400;
+/*portholio section*/
+
+.card {
+  width: calc((100% - 65px) / 2);
+  height: 516px;
+  display: flex;
+  flex-direction: column;
 }
 
-img {
-  width: 419px;
+main .cards:nth-child(2) .card {
+  padding: 130px 0 130px 0;
+}
+
+.card img {
+  width: 420px;
   height: 280px;
+}
+
+.card-title1 {
+  font-family: "Ubuntu", serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #b4ad9e;
+  margin-top: 62px;
+}
+
+.card-title2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.14rem;
+  font-weight: 400;
+  color: #626262;
+  margin-top: 32px;
+}
+
+.card-text {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #626262;
+  margin-top: 40px;
+}
+
+/*photoblog section button*/
+
+.button {
+  width: 165px;
+  height: 60px;
+  border: #626262 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-weight: 400;
+  margin: 90px auto 140px auto;
 }

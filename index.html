@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,96 +12,97 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <title>photoblog</title>
+    <title>Photoblog</title>
   </head>
   <body>
-    <header>
-      <nav class="info">
-        <ul>
-          <li><a href="#">LIFESTYLE</a></li>
-          <li><a href="#">PHOTODIARY</a></li>
-          <li><a href="#">MUSIC</a></li>
-          <li><a href="#">TRAVEL</a></li>
-        </ul>
+    <header class="photoblog-header">
+      <nav class="photoblog_nav">
+        <a href="#" class="nav-item">LIFESTYLE</a>
+        <a href="#" class="nav-item">PHOTODIARY</a>
+        <a href="#" class="nav-item">MUSIC</a>
+        <a href="#" class="nav-item">TRAVEL</a>
       </nav>
     </header>
     <main>
-      <!-- перша секція -->
-      <section>
-        <div>
-          <img src="./img/1.jpg" alt="" />
-          <span id="Ubuntu">LIFESTYLE</span>
-          <h2>More than just a music festival</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </div>
-        <div>
-          <img src="./img/2.jpg" alt="" />
-          <span id="Ubuntu">LIFESTYLE</span>
-          <h2>Life tastes better with coffee</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </div>
-      </section>
-      <!-- друга секція -->
-      <section>
-        <div>
-          <img src="./img/3.jpg" alt="" />
-          <span id="Ubuntu">PHOTODAIRY</span>
-          <h2>American dream</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </div>
-        <div>
-          <img src="./img/4.jpg" alt="" />
-          <span id="Ubuntu">PHOTODAIRY</span>
-          <h2>A day exploring the Alps</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
+      <section class="cards">
+        <div class="container">
+          <div class="card">
+            <img src="./img/1.jpg" alt="" class="card-img" />
+            <h5 class="card-title1">LIFESTYLE</h5>
+            <h2 class="card-title2">More than just a music festival</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./img/2.jpg" alt="" class="card-img" />
+            <h5 class="card-title1">LIFESTYLE</h5>
+            <h2 class="card-title2">Life tastes better with coffee</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </div>
         </div>
       </section>
-      <!-- третя секція -->
-      <section>
-        <div>
-          <img src="./img/5.jpg" alt="" />
-          <span id="Ubuntu">LIFESTYLE</span>
-          <h2>Top 10 song for running</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
+      <section class="cards">
+        <div class="container">
+          <div class="card">
+            <img src="./img/3.jpg" alt="" class="card-img" />
+            <h5 class="card-title1">PHOTODAIRY</h5>
+            <h2 class="card-title2">American dream</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./img/4.jpg" alt="" class="card-img" />
+            <h5 class="card-title1">PHOTODAIRY</h5>
+            <h2 class="card-title2">A day exploring the Alps</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </div>
         </div>
-        <div>
-          <img src="./img/6.jpg" alt="" />
-          <span id="Ubuntu">LIFESTYLE</span>
-          <h2>Cold winter days</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </div>
-        <button>Load more</button>
       </section>
+      <section class="cards">
+        <div class="container">
+          <div class="card">
+            <img src="./img/5.jpg" alt="" class="card-img" />
+            <h5 class="card-title1">LIFESTYLE</h5>
+            <h2 class="card-title2">Top 10 song for running</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./img/6.jpg" alt="" class="card-img" />
+            <h5 class="card-title1">LIFESTYLE</h5>
+            <h2 class="card-title2">Cold winter days</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </div>
+        </div>
+      </section>
+      <button class="button">Load more</button>
     </main>
   </body>
 </html>
